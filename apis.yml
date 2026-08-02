@@ -1,8 +1,27 @@
 aid: upcodes
 name: UpCodes
-description: UpCodes is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: UpCodes is a comprehensive compliance and product research platform for
+  the construction industry, offering a searchable database of US construction and
+  building codes consolidated by state and city for easier navigation. The platform
+  includes libraries of codes, diagrams, and assemblies, project collaboration and
+  bookmarking, code calculators with a BIM design data import tool, SAML single sign-on
+  for enterprise teams, and an AI Copilot that answers code compliance questions,
+  locates assemblies, and generates project-specific checklists. Plans span Essentials,
+  Professional, and Enterprise tiers. UpCodes does not currently publish a public
+  developer API.
 url: https://raw.githubusercontent.com/api-evangelist/upcodes/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://up.codes/img/upcodes-og-twitter-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Construction
+- Building Codes
+- Compliance
+- Regulations
+- Architecture
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://up.codes
+- type: Pricing
+  url: https://up.codes/pricing
+- type: SignUp
+  url: https://up.codes/sign-up
+- type: Login
+  url: https://up.codes/login
+- type: TermsOfService
+  url: https://up.codes/terms
+- type: PrivacyPolicy
+  url: https://up.codes/privacy
+- type: Blog
+  url: https://up.codes/blog
+- type: Support
+  url: https://support.up.codes/support/home
+- type: GitHubOrganization
+  url: https://github.com/upcodes
+- type: LLMsTxt
+  url: llms/upcodes-llms.txt
+- type: DomainSecurity
+  url: security/upcodes-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
