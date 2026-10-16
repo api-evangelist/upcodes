@@ -2,6 +2,13 @@
   "repo": "upcodes",
   "feeds": [
     {
+      "source": "https://up.codes/blog",
+      "feed_url": "https://up.codes/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://up.codes/privacy",
       "feed_url": "https://up.codes/privacy",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
